@@ -1,13 +1,13 @@
 pipeline { 
   
-   agent none
+   agent any
 
    stages {
    
      stage('Install Dependencies') { 
          agent {label 'slave'}
         steps { 
-           sh 'npm install' 
+           echo "npm install" 
         }
      }
      
