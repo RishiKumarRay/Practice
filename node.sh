@@ -1,3 +1,3 @@
 #!/bin/bash
-cd practice
+cd source-code
 npm pack 
